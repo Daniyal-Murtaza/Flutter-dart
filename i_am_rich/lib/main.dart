@@ -8,7 +8,7 @@ void main() {
         backgroundColor: Colors.orange,
         appBar: AppBar(
           title: Center(
-            child: Text('Naruto'),
+            child: Text('Black Orange'),
           ),
           backgroundColor: Colors.black,
         ),
