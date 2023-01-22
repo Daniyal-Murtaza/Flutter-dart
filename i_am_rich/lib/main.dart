@@ -5,12 +5,12 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.orange,
         appBar: AppBar(
           title: Center(
             child: Text('Naruto'),
           ),
-          backgroundColor: Colors.orange,
+          backgroundColor: Colors.black,
         ),
         body: Center(
           child: Image(
