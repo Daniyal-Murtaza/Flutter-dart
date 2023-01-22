@@ -8,7 +8,7 @@ void main() {
         backgroundColor: Colors.blueGrey[500],
         appBar: AppBar(
           title: Center(
-            child: Text('I Am Rich'),
+            child: Text('Kakashi Supremacy'),
           ),
           backgroundColor: Colors.blueGrey[900],
         ),
