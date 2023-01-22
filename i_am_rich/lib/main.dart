@@ -5,17 +5,16 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blueGrey[500],
+        backgroundColor: Colors.black,
         appBar: AppBar(
           title: Center(
-            child: Text('Kakashi Supremacy'),
+            child: Text('Naruto'),
           ),
-          backgroundColor: Colors.blueGrey[900],
+          backgroundColor: Colors.orange,
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://www.pixelstalk.net/wp-content/uploads/images6/Kakashi-4K-Wallpaper-for-Desktop-620x349.jpg'),
+            image: AssetImage('images/naruto.jpg'),
           ),
         ),
       ),
