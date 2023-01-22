@@ -12,6 +12,12 @@ void main() {
           ),
           backgroundColor: Colors.blueGrey[900],
         ),
+        body: Center(
+          child: Image(
+            image: NetworkImage(
+                'https://www.pixelstalk.net/wp-content/uploads/images6/Kakashi-4K-Wallpaper-for-Desktop-620x349.jpg'),
+          ),
+        ),
       ),
     ),
   );
